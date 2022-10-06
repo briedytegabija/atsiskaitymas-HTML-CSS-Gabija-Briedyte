@@ -136,4 +136,16 @@ body .container {
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
+}
+
+.partner-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 64px 32px;
+}
+.partner-grid .partner-card {
+  padding: 1em;
+}
+.partner-grid .d-none {
+  display: none;
 }/*# sourceMappingURL=main.css.map */

@@ -130,3 +130,19 @@ body {
         line-height: 30px;
     }
 }
+
+// PARTNERS sekcija
+
+.partner-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 64px 32px;
+
+    .partner-card {
+        padding: 1em;
+    }
+
+    .d-none {
+        display: none;
+    }
+}
