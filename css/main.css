@@ -64,7 +64,6 @@ body .container {
 .header1 .logoImg {
   display: inline-block;
   font-size: 2rem;
-  margin-left: 1em;
   margin-top: 1em;
   margin-bottom: 1em;
 }
@@ -86,7 +85,7 @@ body .container {
 }
 
 .hero {
-  padding-bottom: 2em;
+  margin-bottom: 80px;
 }
 .hero .hero-title {
   text-transform: capitalize;
@@ -97,6 +96,10 @@ body .container {
 .hero .hero-main-title {
   font-size: 48px;
   font-weight: 900;
+  margin-bottom: 24px;
+}
+.hero .hero__text {
+  line-height: 30px;
 }
 .hero .btn {
   padding: 0.8em 1.5em;
@@ -114,9 +117,18 @@ body .container {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+.hero .heroImg {
+  position: absolute;
+  left: 46%;
+  top: 54px;
+  max-width: 100%;
+  overflow: hidden;
+}
 
 .get-free .get-free-container {
   background-image: url(../img/background.svg);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
   background-size: cover;
   padding: 122px 32px 32px 32px;
   text-align: center;
@@ -145,6 +157,9 @@ body .container {
   display: none;
 }
 
+.super-rare {
+  margin-bottom: 40px;
+}
 .super-rare .super-rare-container {
   padding-left: 32px;
   padding-right: 32px;
@@ -163,4 +178,35 @@ body .container {
 }
 .super-rare a {
   color: #555555;
+}
+
+.auction .auction-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  overflow: hidden;
+}
+.auction .auction-single-card {
+  padding: 1rem;
+  -webkit-box-shadow: 5px 5px 10px rgb(180, 190, 194);
+          box-shadow: 5px 5px 10px rgb(180, 190, 194);
+  border: 1px solid rgb(191, 180, 180);
+  border-radius: 5px;
+  background-color: snow;
+}
+.auction .single-card-image {
+  max-width: 100%;
+  padding-top: 1em;
+  padding-bottom: 0;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.auction .single-card-description {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #EEEEEE;
+  color: black;
+  padding: 32px;
+  margin-left: 1em;
+  margin-right: 5.5em;
 }/*# sourceMappingURL=main.css.map */
