@@ -1,0 +1,5 @@
+@use 'vars' as v;
+
+p {
+    color: v.$primary-light-color;
+}
