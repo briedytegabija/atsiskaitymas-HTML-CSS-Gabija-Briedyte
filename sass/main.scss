@@ -1,3 +1,37 @@
+@use 'reset';
+@use 'vars';
+@use 'common';
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
+
 body {
-    margin-bottom: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+//HEADER
+.header1 {
+    background-color: none;
+    position: sticky;
+    top: 0;
+    width: 100%;
+
+    .logoImg {
+        display: inline-block;
+        color: white;
+        font-size: 2rem;
+        margin-left: 1em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        }
+
+    /* Menu Icon */
+    .burger-icon {
+        cursor: pointer;
+        float: right;
+        padding: 40px 20px;
+    }
+
+    .menu {
+        display: none;
+    }
 }

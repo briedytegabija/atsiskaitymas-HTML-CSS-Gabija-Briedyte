@@ -1,3 +1,28 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
 body {
-  margin-bottom: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.header1 {
+  background-color: none;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  /* Menu Icon */
+}
+.header1 .logoImg {
+  display: inline-block;
+  color: white;
+  font-size: 2rem;
+  margin-left: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.header1 .burger-icon {
+  cursor: pointer;
+  float: right;
+  padding: 40px 20px;
+}
+.header1 .menu {
+  display: none;
 }/*# sourceMappingURL=main.css.map */
