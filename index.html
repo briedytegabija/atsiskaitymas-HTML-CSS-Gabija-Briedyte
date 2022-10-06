@@ -5,8 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atsiskaitymas HTML CSS (Gabija Briedyte)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <h1>hello world</h1>
+    <!--Navigation bar-->
+    <header class="header1">
+        <!--Logo-->
+        <a href="#home">
+            <img src="./img/logo.svg" class="logoImg">
+        </a>
+        <!--Hamburger icon-->
+        <input class="side_menu" type="checkbox" id="side_menu"/>
+        <label class="hamburger" for="side_menu"><span class="hamburger_line"></span></label>
+        <!-- Menu -->
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="#">Features</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Launch</a></li>
+                <li><a href="#" class="pink">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
 </body>
 </html>
