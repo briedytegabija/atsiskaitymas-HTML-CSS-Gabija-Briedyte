@@ -18,7 +18,7 @@ body {
 
 //HEADER
 .header1 {
-    background-color: none;
+    background-color: white;
     position: sticky;
     top: 0;
     width: 100%;
@@ -51,7 +51,7 @@ body {
 
 // HERO sekcija
 .hero {
-
+    padding-bottom: 2em;
     .hero-title {
         text-transform: capitalize;
         color: #FF3998;
@@ -78,22 +78,55 @@ body {
         justify-content: space-between;
     }
 
-    .heroImg {
-        position: absolute;
-        // width: 30px;
-        // height: 30px;
-        left: 50%;
-        top: 54px;
-        max-width: 100%;
-        overflow: hidden;
+    // .heroImg {
+    //     position: absolute;
+    //     // width: 30px;
+    //     // height: 30px;
+    //     left: 50%;
+    //     top: 54px;
+    //     max-width: 100%;
+    //     overflow: hidden;
+    // }
+    
+
+    // .hero-left-container {
+    //     padding-right: 70px;
+    // }
+
+    // .hero__text {
+    //     line-height: 1.5;
+    //     font-weight: 400;
+    // }
+
+    // .hero-img-container {
+    //     border: 1px solid black;
+    //     background-image: url("../img/graphic.svg");
+    //     background-repeat: no-repeat;
+    //     background-position: right -20% bottom 50px;
+    //     padding: 20em;
+    // }
+    
+}
+
+// GET FREE sekcija
+.get-free {
+    .get-free-container {
+        background-image: url(../img/background.svg);
+        background-size: cover;
+        padding: 122px 32px 32px 32px;
+        text-align: center;
     }
 
-    .hero-left-container {
-        padding-right: 70px;
+    .get-free-title {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 48px;
     }
 
-    .hero__text {
-        line-height: 1.5;
+    .get-free-subtitle {
+        margin-bottom: 0;
         font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
     }
 }

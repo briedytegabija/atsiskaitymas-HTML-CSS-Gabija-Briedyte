@@ -60,7 +60,7 @@ body .container {
 }
 
 .header1 {
-  background-color: none;
+  background-color: white;
   position: sticky;
   top: 0;
   width: 100%;
@@ -90,6 +90,9 @@ body .container {
           justify-content: space-between;
 }
 
+.hero {
+  padding-bottom: 2em;
+}
 .hero .hero-title {
   text-transform: capitalize;
   color: #FF3998;
@@ -116,17 +119,21 @@ body .container {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-.hero .heroImg {
-  position: absolute;
-  left: 50%;
-  top: 54px;
-  max-width: 100%;
-  overflow: hidden;
+
+.get-free .get-free-container {
+  background-image: url(../img/background.svg);
+  background-size: cover;
+  padding: 122px 32px 32px 32px;
+  text-align: center;
 }
-.hero .hero-left-container {
-  padding-right: 70px;
+.get-free .get-free-title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
 }
-.hero .hero__text {
-  line-height: 1.5;
+.get-free .get-free-subtitle {
+  margin-bottom: 0;
   font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
 }/*# sourceMappingURL=main.css.map */
