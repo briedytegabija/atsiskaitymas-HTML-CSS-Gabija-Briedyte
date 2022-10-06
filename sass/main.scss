@@ -146,3 +146,32 @@ body {
         display: none;
     }
 }
+
+// SUPER RARE sekcija
+
+.super-rare {
+
+    .super-rare-container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .super-rare-title {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .super-rare-subtitle {
+        margin-bottom: 0;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #555555;
+    }
+
+    a {
+        color: #555555;
+
+    }
+}

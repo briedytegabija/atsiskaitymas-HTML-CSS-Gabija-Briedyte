@@ -8,11 +8,6 @@ body {
   margin: 0;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 img {
   max-width: 100%;
 }
@@ -148,4 +143,24 @@ body .container {
 }
 .partner-grid .d-none {
   display: none;
+}
+
+.super-rare .super-rare-container {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.super-rare .super-rare-title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+}
+.super-rare .super-rare-subtitle {
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #555555;
+}
+.super-rare a {
+  color: #555555;
 }/*# sourceMappingURL=main.css.map */
