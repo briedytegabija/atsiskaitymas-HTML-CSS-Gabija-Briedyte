@@ -1,4 +1,42 @@
 @media screen and (min-width: 1440px) {
 //DESKTOP
+    .footer {
+        .footer-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
 
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            align-items: center;
+            width: 50%;
+        }
+
+        .footer-footer-flex {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+
+        .launching {
+            padding-top: 64px;
+            padding-bottom: 105px;
+            padding-right: 32px;
+            color: #999999;
+            font-size: 20px;
+        }
+
+    }
+}
+
+@media screen and (max-width: 1439px) {
+    .footer {
+        .launching {
+            display: none;
+        }
+    }
 }

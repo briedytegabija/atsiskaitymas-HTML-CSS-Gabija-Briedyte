@@ -92,6 +92,10 @@ body {
         max-width: 100%;
         overflow: hidden;
     }
+
+    .hero-img-container {
+        overflow: hidden; 
+    }
     
 
     // .hero-left-container {
@@ -121,6 +125,7 @@ body {
         background-size: cover;
         padding: 122px 32px 32px 32px;
         text-align: center;
+        // width: 100%;
     }
 
     .get-free-title {
@@ -252,4 +257,34 @@ body {
     .exclusive-p {
         margin-bottom: 0;
     }
+
+    .contact {
+        padding-top: 20px;
+    }
+
+    .social {
+        padding-top: 20px;
+    }
+
+    .fa {
+        color: #999999;
+        font-size: 18px;
+        padding-right: 12px;
+    }
+
+    .copyright {
+        padding-top: 64px;
+        padding-bottom: 105px;
+        padding-left: 32px;
+        color: #999999;
+        font-size: 20px;
+    }
+
+    // .launching {
+    //     display: none;
+    // }
+
 }
+
+
+@import 'media';
