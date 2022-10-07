@@ -232,5 +232,24 @@ body {
     .footer-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        padding-left: 32px;
+    }
+
+    .footer-main {
+        padding-top: 64px;
+        padding-left: 32px;
+        padding-bottom: 64px;
+    }
+
+    .footerImg {
+        margin-bottom: 30px;
+    }
+
+    .footer__icons {
+        padding-top: 32px;
+    }
+
+    .exclusive-p {
+        margin-bottom: 0;
     }
 }

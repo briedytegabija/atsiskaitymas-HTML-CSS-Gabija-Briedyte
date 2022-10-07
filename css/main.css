@@ -45,6 +45,8 @@ p {
 
 p {
   color: #555555;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 body {
@@ -223,4 +225,19 @@ body .container {
 .footer .footer-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  padding-left: 32px;
+}
+.footer .footer-main {
+  padding-top: 64px;
+  padding-left: 32px;
+  padding-bottom: 64px;
+}
+.footer .footerImg {
+  margin-bottom: 30px;
+}
+.footer .footer__icons {
+  padding-top: 32px;
+}
+.footer .exclusive-p {
+  margin-bottom: 0;
 }/*# sourceMappingURL=main.css.map */
