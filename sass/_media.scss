@@ -1,5 +1,13 @@
 @media screen and (min-width: 1440px) {
 //DESKTOP
+    .partner {
+        .partner-grid {
+            grid-template-columns: repeat(6, 1fr);
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
     .footer {
         .footer-container {
             display: flex;
@@ -34,6 +42,14 @@
 }
 
 @media screen and (max-width: 1439px) {
+
+    .partner-grid { //neveikia
+        .invisible-card {
+            display: none;
+            visibility: hidden;
+        }
+    }
+
     .footer {
         .launching {
             display: none;

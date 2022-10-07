@@ -81,12 +81,19 @@ body {
     .hero-flex {
         display: flex;
         justify-content: space-between;
+        // position: relative; //new
+        // .hero-flex > .heroImg {
+        //     position: absolute;
+        //     top: 0;
+        //     left: 100%;
+        //     transform: translateX(-50%);
+        //   }
     }
+
+
 
     .heroImg {
         position: absolute;
-        // width: 30px;
-        // height: 30px;
         left: 46%;
         top: 54px;
         max-width: 100%;
@@ -120,8 +127,9 @@ body {
 // GET FREE sekcija
 .get-free {
     .get-free-container {
-        background-image: url(../img/background.svg);
-        transform: scale(1.2); //kad nebutu uzapvalinti kampuciai
+        // background-image: url(../img/background.svg);
+        // transform: scale(1.2); //kad nebutu uzapvalinti kampuciai
+        background-image: linear-gradient(to right, #FF3998 , #FF8139);
         background-size: cover;
         padding: 122px 32px 32px 32px;
         text-align: center;
@@ -144,17 +152,19 @@ body {
 
 // PARTNERS sekcija
 
-.partner-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 64px 32px;
+.partner {
+    .partner-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 64px 32px;
 
-    .partner-card {
-        padding: 1em;
-    }
+        .partner-card {
+            padding: 1em;
+        }
 
-    .d-none {
-        display: none;
+        // .invisible-card {
+        //     display: none;
+        // }
     }
 }
 
@@ -259,11 +269,11 @@ body {
     }
 
     .contact {
-        padding-top: 20px;
+        // padding-top: 20px;
     }
 
     .social {
-        padding-top: 20px;
+        // padding-top: 20px;
     }
 
     .fa {
