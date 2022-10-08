@@ -57,11 +57,24 @@ body .container {
 }
 
 .header1 {
-  background-color: white;
+  background-color: #fff;
   position: sticky;
   top: 0;
+  left: 0;
   width: 100%;
+  z-index: 10;
   /* Menu Icon */
+}
+.header1 .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .header1 .logoImg {
   display: inline-block;
@@ -69,21 +82,24 @@ body .container {
   margin-top: 1em;
   margin-bottom: 1em;
 }
+.header1 .main-nav > ul {
+  display: none;
+}
 .header1 .burger-icon {
   padding: 41px 32px;
   font-size: 24px;
   color: #999999;
 }
-.header1 .menu {
-  display: none;
+.header1 li {
+  list-style-type: none;
 }
-.header1 .flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+.header1 li .no-underline {
+  text-decoration: none;
+}
+.header1 li .pink {
+  text-decoration: none;
+  color: #FF3998;
+  padding-right: 80px;
 }
 
 .hero {
@@ -197,19 +213,18 @@ body .container {
 }
 .auction .single-card-image {
   max-width: 100%;
-  padding-top: 1em;
   padding-bottom: 0;
-  padding-left: 1em;
-  padding-right: 1em;
 }
 .auction .single-card-description {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  -webkit-column-gap: 110px;
+     -moz-column-gap: 110px;
+          column-gap: 110px;
+  row-gap: 10px;
   background-color: #EEEEEE;
   color: black;
   padding: 32px;
-  margin-left: 1em;
-  margin-right: 5.5em;
 }
 
 .footer .footer-container {
@@ -254,6 +269,15 @@ body .container {
 }
 
 @media screen and (min-width: 1440px) {
+  .header1 .main-nav > ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 28px;
+  }
+  .header1 .burger-icon {
+    display: none;
+  }
   .partner .partner-grid {
     grid-template-columns: repeat(6, 1fr);
     -webkit-box-align: center;
@@ -262,6 +286,9 @@ body .container {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .auction .single-post__image {
+    max-width: 100%;
   }
   .footer .footer-container {
     display: -webkit-box;

@@ -18,10 +18,22 @@ body {
 
 //HEADER
 .header1 {
-    background-color: white;
+    // background-color: white;
+    // position: sticky;
+    // top: 0;
+    // width: 100%;
+    background-color: #fff;
     position: sticky;
     top: 0;
+    left: 0;
     width: 100%;
+    z-index: 10;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
     .logoImg {
         display: inline-block;
@@ -29,7 +41,11 @@ body {
         // margin-left: 1em;
         margin-top: 1em;
         margin-bottom: 1em;
-        }
+    }
+
+    .main-nav > ul {
+        display: none;
+    }
 
     /* Menu Icon */
     .burger-icon {
@@ -39,14 +55,30 @@ body {
 
     }
 
-    .menu {
-        display: none;
+    // .menu {
+    //     display: none;
+    // }
+
+    // .flex {
+    //     display: flex;
+    //     justify-content: space-between;
+    // }
+
+    li {
+        list-style-type: none;
+        .no-underline {
+            text-decoration: none;
+        }
+        .pink {
+            text-decoration: none;
+            color: #FF3998;
+            padding-right: 80px;
+        }
     }
 
-    .flex {
-        display: flex;
-        justify-content: space-between;
-    }
+    // .nav {
+    //     display: flex;
+    // }
 }
 
 // HERO sekcija
@@ -219,20 +251,22 @@ body {
 
     .single-card-image {
         max-width: 100%;
-        padding-top: 1em;
+        // padding-top: 1em;
         padding-bottom: 0;
-        padding-left: 1em;
-        padding-right: 1em;
+        // padding-left: 1em;
+        // padding-right: 1em;
     }
 
     .single-card-description {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        column-gap: 110px;
+        row-gap: 10px;
         background-color: #EEEEEE;
         color: black;
         padding: 32px;
-        margin-left: 1em;
-        margin-right: 5.5em;
+        // margin-left: 1em;
+        // margin-right: 5.5em;
     }
 }
 

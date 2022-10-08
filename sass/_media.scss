@@ -1,10 +1,29 @@
 @media screen and (min-width: 1440px) {
 //DESKTOP
+
+    // header
+    .header1 {
+        .main-nav > ul {
+            display: flex;
+            gap: 28px;
+        }
+
+        .burger-icon {
+            display: none;
+        }
+    }
+
     .partner {
         .partner-grid {
             grid-template-columns: repeat(6, 1fr);
             align-items: center;
             justify-content: center;
+        }
+    }
+
+    .auction {
+        .single-post__image {
+            max-width: 100%;
         }
     }
 
@@ -42,6 +61,12 @@
 }
 
 @media screen and (max-width: 1439px) {
+
+    // .header1 {
+    //     .menu {
+    //         display: none;
+    //     }
+    // }
 
     .partner-grid { //neveikia
         .invisible-card {
