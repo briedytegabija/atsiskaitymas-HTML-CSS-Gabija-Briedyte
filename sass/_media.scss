@@ -13,6 +13,15 @@
         }
     }
 
+    .hero-left-container {
+        padding-left: 200px;
+        width: 50%;
+        
+        .hero-main-title {
+            font-size: 56px;
+        }
+    }
+
     .get-free {
         .get-free-container {
             margin-left: 80px;
@@ -42,6 +51,19 @@
         .hr-grey {
             margin-left: 80px;
             margin-right: 80px;
+        }
+    }
+
+    .green-left-container {
+        padding-left: 200px;
+        width: 50%;
+        
+        .green-main-title {
+            font-size: 56px;
+        }
+
+        .btn {
+            margin-bottom: 125px;
         }
     }
 
@@ -80,16 +102,22 @@
 
 @media screen and (max-width: 1439px) {
 
-    // .header1 {
-    //     .menu {
-    //         display: none;
-    //     }
-    // }
+    .hero-flex {
+        .hero-left-container {
+            padding-left: 20px;
+        }
+    }
 
     .partner-grid { //neveikia
         .invisible-card {
             display: none;
             visibility: hidden;
+        }
+    }
+
+    .green-flex {
+        .green-left-container {
+            padding-left: 20px;
         }
     }
 
