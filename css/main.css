@@ -198,35 +198,129 @@ body .container {
 }
 
 .auction .auction-cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   overflow: hidden;
 }
 .auction .auction-single-card {
-  padding: 1rem;
-  -webkit-box-shadow: 5px 5px 10px rgb(180, 190, 194);
-          box-shadow: 5px 5px 10px rgb(180, 190, 194);
-  border: 1px solid rgb(191, 180, 180);
-  border-radius: 5px;
-  background-color: snow;
-}
-.auction .single-card-image {
-  max-width: 100%;
-  padding-bottom: 0;
+  background-color: #EEEEEE;
+  border-radius: 7%;
+  margin-left: 2rem;
+  margin-top: 2.5rem;
+  margin-bottom: 5.57rem;
+  width: 280px;
+  min-width: 280px;
 }
 .auction .single-card-description {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  -webkit-column-gap: 110px;
-     -moz-column-gap: 110px;
-          column-gap: 110px;
-  row-gap: 10px;
   background-color: #EEEEEE;
   color: black;
-  padding: 32px;
+  padding: 24px;
+  gap: 15px;
+}
+.auction .property1 {
+  font-weight: 500;
+  font-size: 12px;
+  padding-bottom: 12px;
+  color: #FF8139;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+.auction .property2 {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.auction .property3 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #777777;
+  padding-top: 12px;
+}
+.auction .property4 {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  color: #777777;
+  text-transform: uppercase;
+  padding-left: 60px;
+}
+.auction .property5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  padding-top: 8px;
+  font-size: 20px;
+  line-height: 20px;
+  color: #111111;
+}
+.auction .property5 h4 {
+  font-weight: 500;
+  margin: 0;
+}
+.auction .property5 img {
+  padding-right: 7px;
+}
+.auction .property6 {
+  line-height: 18px;
+  font-size: 18px;
+  color: #777777;
+  padding-top: 10px;
+  padding-left: 30px;
 }
 
+.green {
+  padding-top: 64px;
+  overflow: hidden;
+}
+.green .green-title {
+  text-transform: capitalize;
+  color: #FF3998;
+  font-size: 16px;
+  font-weight: 700;
+}
+.green .green-main-title {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+.green .green__text {
+  line-height: 30px;
+}
+.green .btn {
+  padding: 0.8em 1.5em;
+  background-color: #fff;
+  color: black;
+  font-size: 20px;
+  border-radius: 2rem;
+  border: 4px solid rgb(242, 70, 99);
+}
+.green .green-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.green .green-img-container {
+  overflow: hidden;
+}
+.green .greenImg {
+  position: absolute;
+  left: 60%;
+  overflow: hidden;
+}
+
+.footer {
+  margin-top: 64px;
+}
 .footer .footer-container {
   display: -webkit-box;
   display: -ms-flexbox;
