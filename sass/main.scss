@@ -250,10 +250,10 @@ body {
         // border-radius: 5px;
         // background-color: snow;
         background-color: #EEEEEE;
-        border-radius: 7%;
-        margin-left: 2rem;
+        border-radius: 16px;
         margin-top: 2.5rem;
         margin-bottom: 5.57rem;
+        margin-left: 2rem;
         width: 280px;
         min-width: 280px;
     }
@@ -279,6 +279,8 @@ body {
         // margin-left: 1em;
         // margin-right: 5.5em;
         gap: 15px;
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
     }
 
     .property1 {

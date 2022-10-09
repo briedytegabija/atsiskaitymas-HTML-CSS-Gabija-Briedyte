@@ -22,9 +22,12 @@
     }
 
     .auction {
-        .single-post__image {
-            max-width: 100%;
+        .auction-cards {
+            justify-content: space-around;
+            padding-right: 50px;
+            padding-left: 15px;
         }
+        
     }
 
     .footer {

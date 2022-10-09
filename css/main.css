@@ -205,10 +205,10 @@ body .container {
 }
 .auction .auction-single-card {
   background-color: #EEEEEE;
-  border-radius: 7%;
-  margin-left: 2rem;
+  border-radius: 16px;
   margin-top: 2.5rem;
   margin-bottom: 5.57rem;
+  margin-left: 2rem;
   width: 280px;
   min-width: 280px;
 }
@@ -219,6 +219,8 @@ body .container {
   color: black;
   padding: 24px;
   gap: 15px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
 }
 .auction .property1 {
   font-weight: 500;
@@ -381,8 +383,11 @@ body .container {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .auction .single-post__image {
-    max-width: 100%;
+  .auction .auction-cards {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding-right: 50px;
+    padding-left: 15px;
   }
   .footer .footer-container {
     display: -webkit-box;
