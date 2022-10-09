@@ -12,9 +12,6 @@ body {
     }
 }
 
-.container {
-
-}
 
 //HEADER
 .header1 {
@@ -337,6 +334,15 @@ body {
         color: #777777;
         padding-top: 10px;
         padding-left: 30px;
+    }
+}
+
+.hr {
+    .hr-grey {
+        background-color:#e9e7e7;
+        height: 2px;
+        // margin-left: 80px;
+        // margin-right: 80px;
     }
 }
 

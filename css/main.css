@@ -277,6 +277,11 @@ body .container {
   padding-left: 30px;
 }
 
+.hr .hr-grey {
+  background-color: #e9e7e7;
+  height: 2px;
+}
+
 .green {
   padding-top: 64px;
   overflow: hidden;
@@ -374,6 +379,11 @@ body .container {
   .header1 .burger-icon {
     display: none;
   }
+  .get-free .get-free-container {
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 16px;
+  }
   .partner .partner-grid {
     grid-template-columns: repeat(6, 1fr);
     -webkit-box-align: center;
@@ -388,6 +398,10 @@ body .container {
         justify-content: space-around;
     padding-right: 50px;
     padding-left: 15px;
+  }
+  .hr .hr-grey {
+    margin-left: 80px;
+    margin-right: 80px;
   }
   .footer .footer-container {
     display: -webkit-box;

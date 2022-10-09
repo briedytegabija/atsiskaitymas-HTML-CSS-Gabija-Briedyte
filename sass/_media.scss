@@ -13,6 +13,14 @@
         }
     }
 
+    .get-free {
+        .get-free-container {
+            margin-left: 80px;
+            margin-right: 80px;
+            border-radius: 16px;
+        }
+    }
+
     .partner {
         .partner-grid {
             grid-template-columns: repeat(6, 1fr);
@@ -28,6 +36,13 @@
             padding-left: 15px;
         }
         
+    }
+
+    .hr {
+        .hr-grey {
+            margin-left: 80px;
+            margin-right: 80px;
+        }
     }
 
     .footer {
